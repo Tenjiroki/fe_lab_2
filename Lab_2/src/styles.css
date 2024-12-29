@@ -1,0 +1,101 @@
+/* Загальні стилі */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Основний контейнер */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+/* Таблиця */
+.table-container {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  table-layout: fixed;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* Перший рядок таблиці */
+.row1 {
+  background-color: #288f8f;
+  color: #ffffff;
+}
+
+.row1:hover {
+  background-color: #f5f528;
+  color: #000000;
+}
+
+/* Другий рядок таблиці */
+.row2 {
+  background-color: #f5f528;
+  color: #000000;
+}
+
+.row2:hover {
+  background-color: #288f8f;
+  color: #ffffff;
+}
+
+/* Третій рядок таблиці */
+.row3 {
+  background-color: #e0e0e0;
+  color: #333333;
+}
+
+.row3:hover {
+  background-color: #cccccc;
+  color: #000000;
+}
+
+/* Квадрати */
+.squares-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 5px solid black;
+  border-radius: 10px;
+  position: absolute;
+}
+
+/* Перший квадрат */
+.square1 {
+  background-color: rgba(214, 100, 0, 0.6); /* Напівпрозорий помаранчевий */
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+/* Другий квадрат */
+.square2 {
+  background-color: rgba(140, 45, 45, 0.6); /* Напівпрозорий темно-червоний */
+  top: 50px;
+  left: 50px;
+  z-index: 2;
+}
